@@ -65,8 +65,14 @@ namespace OperatorOverloadingAssignment
                 }
                 return false;
             }
+            public override int GetHashCode()
+            {
+                return 0;
+            }
         }
     }
-}
+        }
+    
+
 
 
